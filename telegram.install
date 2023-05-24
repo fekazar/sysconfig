@@ -7,4 +7,4 @@ if [ ! -d $DL_PATH ]; then
 fi
 
 wget https://telegram.org/dl/desktop/linux -O $DL_PATH/telega.tar.gz
-tar -xf $DL_PATH/telega.tar.gz -C $DL_PATH 
+tar -xf $DL_PATH/telega.tar.gz -C $DL_PATH/
