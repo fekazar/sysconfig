@@ -1,6 +1,6 @@
 #/bin/bash
 
-#DL_PATH=/opt/telegram
+DL_PATH=/opt/telegram
 
 if [ ! -d $DL_PATH ]; then
   mkdir $DL_PATH
