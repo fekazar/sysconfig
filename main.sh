@@ -17,7 +17,8 @@ apt install -y wget \
   gpg \
   vim \
   curl \
-  xz-utils
+  xz-utils \
+  git
 
 echo '[PHASE INIT]'
 for f in *.init; do
