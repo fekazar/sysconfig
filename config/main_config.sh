@@ -6,5 +6,6 @@ if [ $(id -u) -eq 0 ]
 fi
 
 for f in */config.sh; do
+  chmod +x $f
   bash $f  
 done
