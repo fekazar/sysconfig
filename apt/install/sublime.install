@@ -1,4 +1,0 @@
-#/bin/bash
-
-apt install -y sublime-text
-
